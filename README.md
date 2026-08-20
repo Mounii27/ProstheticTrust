@@ -1,16 +1,21 @@
 # ProstheticTrust
 ### Affordable Adaptive Prosthetic Platform for Underprivileged Amputees
 
-**Team**: AlphaX duo  
-**Members**: Mounika, Shanmugapriya  
-**Theme**: BioTech & HealthTech  
+**Team**: AlphaX duo (Mounika, Shanmugapriya)  
 **Hackathon**: Omnikon National Hackathon 2026  
+**Theme**: BioTech & HealthTech  
 **Problem Code**: Omni_BioTech_5
 
 ---
 
 ## Problem
-Conventional prosthetics are costly and often lack adaptive grip control. Underprivileged amputees (especially in rural areas) face major challenges in discovering affordable designs, finding reliable local makers, getting proper fitting, and receiving aftercare support. This leads to high rates of prosthetic abandonment.
+Conventional prosthetics are expensive and often lack adaptive grip control. Underprivileged amputees, especially in rural areas, struggle to:
+- Discover affordable open-source designs
+- Find reliable local makers
+- Get proper fitting and training guidance
+- Receive aftercare support
+
+This leads to high rates of prosthetic abandonment.
 
 ## Solution
 **ProstheticTrust** is a mobile-first platform that connects underprivileged amputees with:
@@ -24,29 +29,28 @@ Conventional prosthetics are costly and often lack adaptive grip control. Underp
 
 ### Key Features
 - Smart Design Catalogue with Mechanical Quality Scoring
-- Guided residual limb assessment (photos + simple measurements)
+- Guided residual limb assessment (photos + measurements)
 - Verified local maker network with ratings and proof
-- Visual + voice fitting & training modules
+- Visual + voice fitting & training modules (Tamil + English)
 - Trust system (verification, staged process, feedback & aftercare)
 
 ## Tech Stack
 - **Frontend**: Flutter (Android-first)
-- **Backend**: Firebase (or Node.js + MongoDB)
-- **Storage**: Cloud Storage + Local caching (Offline support)
+- **Backend**: Firebase / Node.js + MongoDB
+- **Storage**: Cloud Storage + Offline support
 - **Languages**: Tamil + English
-- **Other**: Image upload, measurement forms, voice guidance
 
 ## How It Works
-1. User Registration & Need Selection
-2. Residual Limb Photo + Measurement
-3. Design Recommendation (filtered by Mechanical scores)
-4. Local Maker Matching (Verified makers)
-5. Order & Staged Process
-6. Fitting Guidance Modules
-7. Feedback & Rating
+1. User Registration & Need Selection  
+2. Residual Limb Photo + Measurement  
+3. Design Recommendation (based on Mechanical scores)  
+4. Local Maker Matching  
+5. Order & Staged Process  
+6. Fitting Guidance Modules  
+7. Feedback & Rating  
 
 ## Impact
-- Restores independence and dignity for underprivileged amputees
+- Restores independence and dignity for amputees
 - Creates income opportunities for local makers
 - Reduces prosthetic abandonment
 - Scalable to more designs, languages, and regions
