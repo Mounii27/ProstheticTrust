@@ -34,26 +34,44 @@ This leads to high rates of prosthetic abandonment.
 - Visual + voice fitting & training modules (Tamil + English)
 - Trust system (verification, staged process, feedback & aftercare)
 
-## Tech Stack
-- **Frontend**: Flutter (Android-first)
-- **Backend**: Firebase / Node.js + MongoDB
-- **Storage**: Cloud Storage + Offline support
-- **Languages**: Tamil + English
+### Project Status
 
-## How It Works
-1. User Registration & Need Selection  
-2. Residual Limb Photo + Measurement  
-3. Design Recommendation (based on Mechanical scores)  
-4. Local Maker Matching  
-5. Order & Staged Process  
-6. Fitting Guidance Modules  
-7. Feedback & Rating  
+| Phase | Description | Status |
+|-------|-------------|--------|
+| Phase 1 | Functional Prototype | Completed |
+| Phase 2 | Smart Recommendation | In Progress |
+| Phase 3 | Guidance Layer | Planned |
+| Phase 4 | Trust Network | Planned |
+| Phase 5 | Scale | Future |
 
-## Impact
-- Restores independence and dignity for amputees
-- Creates income opportunities for local makers
-- Reduces prosthetic abandonment
-- Scalable to more designs, languages, and regions
+---
+
+### Features Completed (Phase 1)
+- Firebase Authentication (Sign Up, Login, Logout)
+- User Profile (Name, Phone, Role, Language)
+- Complete user journey flow
+- Structured Assessment with validation
+- Review Measurements screen
+- Design Recommendation flow
+- Fitting Guidance structure
+
+---
+
+### Features in Progress (Phase 2)
+- Validated recommendation rules
+- Compatibility evaluation engine
+- Explainable Mechanical Quality Score (Stability, Strength, Durability, Adjustability, Weight)
+- Improved design ranking system
+
+---
+
+### Tech Stack
+- Flutter + Dart
+- Firebase Authentication
+- Cloud Firestore
+
+---
+
 
 ## Pitch Deck
 [View Full Pitch Deck](AlphaX%20duo_ProstheticTrust.pdf)
