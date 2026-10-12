@@ -1,11 +1,6 @@
 # ProstheticTrust
 ### Affordable Adaptive Prosthetic Platform for Underprivileged Amputees
 
-**Team**: AlphaX duo (Mounika A, Shanmugapriya S B)  
-**Hackathon**: Omnikon National Hackathon 2026  
-**Theme**: BioTech & HealthTech  
-**Problem ID**: Omni_BioTech_5
-
 ---
 
 ## Problem
